@@ -1,0 +1,19 @@
+.btn-info{
+    color:blue;
+}
+
+.btn-info:hover{
+    color:brown;
+}
+
+form input:invalid{
+    border-color: rgb(34, 221, 65);
+}
+.submit{
+    color: rgb(207, 207, 219);
+background-color: blue;
+}
+.submit:hover{
+    color: rgb(206, 26, 71);
+}
+

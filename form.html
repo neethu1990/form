@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    
+
+    <form action="#" method="post" id="Contact-form" onsubmit="return validateContactForm()">
+
+        <fieldset style="justify-content: center; height: auto; width: 500px;">
+            <legend style="background-color: rgb(92, 224, 103);"><strong>PERSONAL DETAILS:-</strong></legend>
+        <label for="fname">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+        <label for="fname">Password:</label><br>
+        <input type="text" id="password" name="password" required><br><br>
+        <label for="fname">Gender:</label><br>
+        <input type="text" id="gender" name="gender" required><br><br>
+        <label for="fname">E-mail:</label><br>
+        <input type="text" id="email" name="email" required><br><br>
+        <label for="fname">Contact:</label><br>
+        <input type="text" id="contact" name="contact" required><br><br>
+
+        <input class="submit" type="submit" value="Submit">
+
+        </fieldset>
+    </form>
+    <a href="#" class="btn-info"> Click here for more info</a>
+
+
+    <script src="./form.js"></script>
+</body>
+</html>
